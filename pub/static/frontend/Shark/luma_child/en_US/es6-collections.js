@@ -1,0 +1,1 @@
+/var/www/magento23/sample/lib/web/es6-collections.js

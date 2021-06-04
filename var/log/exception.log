@@ -1,0 +1,153 @@
+[2021-05-20 12:25:12] main.CRITICAL: Element 'container', attribute 'hmtlClass': The attribute 'hmtlClass' is not allowed.
+Line: 1264
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'container', attribute 'hmtlClass': The attribute 'hmtlClass' is not allowed.
+Line: 1264
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-20 13:01:44] main.CRITICAL: Element 'referenceContainer', attribute 'name': [facet 'pattern'] The value 'page-footer-content row' is not accepted by the pattern '[a-zA-Z0-9][a-zA-Z\d\-_\.]*'.
+Line: 1264
+
+Element 'referenceContainer', attribute 'name': 'page-footer-content row' is not a valid value of the atomic type 'elementNameType'.
+Line: 1264
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'referenceContainer', attribute 'name': [facet 'pattern'] The value 'page-footer-content row' is not accepted by the pattern '[a-zA-Z0-9][a-zA-Z\\d\\-_\\.]*'.
+Line: 1264
+
+Element 'referenceContainer', attribute 'name': 'page-footer-content row' is not a valid value of the atomic type 'elementNameType'.
+Line: 1264
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-21 11:03:59] main.CRITICAL: Element 'block', attribute 'class': [facet 'pattern'] The value 'Magento\Framework/View/Element/Template' is not accepted by the pattern '[A-Z][_a-zA-Z\d]*(\\[A-Z][_a-zA-Z\d]*)*'.
+Line: 824
+
+Element 'block', attribute 'class': 'Magento\Framework/View/Element/Template' is not a valid value of the atomic type 'blockClassType'.
+Line: 824
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'block', attribute 'class': [facet 'pattern'] The value 'Magento\\Framework/View/Element/Template' is not accepted by the pattern '[A-Z][_a-zA-Z\\d]*(\\\\[A-Z][_a-zA-Z\\d]*)*'.
+Line: 824
+
+Element 'block', attribute 'class': 'Magento\\Framework/View/Element/Template' is not a valid value of the atomic type 'blockClassType'.
+Line: 824
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-21 11:04:31] main.CRITICAL: An element with a "footer-container" ID already exists. {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): An element with a \"footer-container\" ID already exists. at /var/www/magento23/sample/vendor/magento/framework/Data/Structure.php:157)"} []
+[2021-05-25 10:51:35] main.CRITICAL: Element 'block', attribute 'class': [facet 'pattern'] The value '\Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare' is not accepted by the pattern '[A-Z][_a-zA-Z\d]*(\\[A-Z][_a-zA-Z\d]*)*'.
+Line: 1254
+
+Element 'block', attribute 'class': '\Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare' is not a valid value of the atomic type 'blockClassType'.
+Line: 1254
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'block', attribute 'class': [facet 'pattern'] The value '\\Magento\\Catalog\\Block\\Product\\ProductList\\Item\\AddTo\\Compare' is not accepted by the pattern '[A-Z][_a-zA-Z\\d]*(\\\\[A-Z][_a-zA-Z\\d]*)*'.
+Line: 1254
+
+Element 'block', attribute 'class': '\\Magento\\Catalog\\Block\\Product\\ProductList\\Item\\AddTo\\Compare' is not a valid value of the atomic type 'blockClassType'.
+Line: 1254
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-25 10:59:38] main.CRITICAL: Invalid block type: Magento\Catalog\Block\Product\View\AddTo {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Invalid block type: Magento\\Catalog\\Block\\Product\\View\\AddTo at /var/www/magento23/sample/vendor/magento/framework/View/Layout/Generator/Block.php:278, ReflectionException(code: -1): Class Magento\\Catalog\\Block\\Product\\View\\AddTo does not exist at /var/www/magento23/sample/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-05-25 11:02:15] main.CRITICAL: Invalid block type: Magento\Catalog\Block\Product\View\AddTo {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Invalid block type: Magento\\Catalog\\Block\\Product\\View\\AddTo at /var/www/magento23/sample/vendor/magento/framework/View/Layout/Generator/Block.php:278, ReflectionException(code: -1): Class Magento\\Catalog\\Block\\Product\\View\\AddTo does not exist at /var/www/magento23/sample/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-05-26 07:31:30] main.CRITICAL: Theme layout update file '/var/www/magento23/sample/app/design/frontend/Shark/shark_child/Magento_Catalog/layout/catalog_product_view.xml' is not valid.
+Opening and ending tag mismatch: block line 30 and container
+ Line: 31
+Opening and ending tag mismatch: container line 18 and referenceContainer
+ Line: 33
+Opening and ending tag mismatch: referenceContainer line 17 and body
+ Line: 34
+Opening and ending tag mismatch: body line 9 and page
+ Line: 35
+Premature end of data in tag page line 8
+ Line: 36 {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Theme layout update file '/var/www/magento23/sample/app/design/frontend/Shark/shark_child/Magento_Catalog/layout/catalog_product_view.xml' is not valid.
+Opening and ending tag mismatch: block line 30 and container
+ Line: 31
+Opening and ending tag mismatch: container line 18 and referenceContainer
+ Line: 33
+Opening and ending tag mismatch: referenceContainer line 17 and body
+ Line: 34
+Opening and ending tag mismatch: body line 9 and page
+ Line: 35
+Premature end of data in tag page line 8
+ Line: 36 at /var/www/magento23/sample/vendor/magento/framework/View/Model/Layout/Merge.php:779)"} []
+[2021-05-26 07:34:31] main.CRITICAL: Theme layout update file '/var/www/magento23/sample/app/design/frontend/Shark/shark_child/Magento_Catalog/layout/catalog_product_view.xml' is not valid.
+Opening and ending tag mismatch: block line 30 and container
+ Line: 38
+Opening and ending tag mismatch: container line 18 and referenceContainer
+ Line: 40
+Opening and ending tag mismatch: referenceContainer line 17 and body
+ Line: 41
+Opening and ending tag mismatch: body line 9 and page
+ Line: 42
+Premature end of data in tag page line 8
+ Line: 43 {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Theme layout update file '/var/www/magento23/sample/app/design/frontend/Shark/shark_child/Magento_Catalog/layout/catalog_product_view.xml' is not valid.
+Opening and ending tag mismatch: block line 30 and container
+ Line: 38
+Opening and ending tag mismatch: container line 18 and referenceContainer
+ Line: 40
+Opening and ending tag mismatch: referenceContainer line 17 and body
+ Line: 41
+Opening and ending tag mismatch: body line 9 and page
+ Line: 42
+Premature end of data in tag page line 8
+ Line: 43 at /var/www/magento23/sample/vendor/magento/framework/View/Model/Layout/Merge.php:779)"} []
+[2021-05-26 13:42:48] main.CRITICAL: Element 'link': This element is not expected. Expected is one of ( attribute, block, referenceBlock, referenceContainer, container, move, uiComponent ).
+Line: 823
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'link': This element is not expected. Expected is one of ( attribute, block, referenceBlock, referenceContainer, container, move, uiComponent ).
+Line: 823
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-26 13:43:30] main.CRITICAL: Element 'link': This element is not expected.
+Line: 822
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'link': This element is not expected.
+Line: 822
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-26 13:44:27] main.CRITICAL: Element 'link': This element is not expected.
+Line: 39
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'link': This element is not expected.
+Line: 39
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-26 13:52:14] main.CRITICAL: Element 'link': This element is not expected.
+Line: 39
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'link': This element is not expected.
+Line: 39
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-26 13:54:49] main.CRITICAL: Element 'link': This element is not expected.
+Line: 39
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'link': This element is not expected.
+Line: 39
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-27 14:20:43] main.CRITICAL: The "product.info.price" was incorrectly set as a child to itself. Resolve the issue and try again. {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The \"product.info.price\" was incorrectly set as a child to itself. Resolve the issue and try again. at /var/www/magento23/sample/vendor/magento/framework/Data/Structure.php:311)"} []
+[2021-05-27 14:23:56] main.CRITICAL: The "product.info.price" cannot be set as child to "product.info.price" because "product.info.price" is a parent of "product.info.stock.sku" recursively. Resolve the issue and try again. {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The \"product.info.price\" cannot be set as child to \"product.info.price\" because \"product.info.price\" is a parent of \"product.info.stock.sku\" recursively. Resolve the issue and try again. at /var/www/magento23/sample/vendor/magento/framework/Data/Structure.php:319)"} []
+[2021-05-31 10:37:43] main.CRITICAL: Element 'container', attribute 'class': The attribute 'class' is not allowed.
+Line: 1258
+
+Element 'container', attribute 'template': The attribute 'template' is not allowed.
+Line: 1258
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'container', attribute 'class': The attribute 'class' is not allowed.
+Line: 1258
+
+Element 'container', attribute 'template': The attribute 'template' is not allowed.
+Line: 1258
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-31 11:37:38] main.CRITICAL: Invalid block type: Magento\Catalog\Block\Product\View\Addto\Compare {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Invalid block type: Magento\\Catalog\\Block\\Product\\View\\Addto\\Compare at /var/www/magento23/sample/vendor/magento/framework/View/Layout/Generator/Block.php:278, ReflectionException(code: -1): Class Magento\\Catalog\\Block\\Product\\View\\Addto\\Compare does not exist at /var/www/magento23/sample/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-05-31 11:38:48] main.CRITICAL: Element 'block', attribute 'class': [facet 'pattern'] The value '\Magento\Catalog\Block\Product\View\Addto\Compare' is not accepted by the pattern '[A-Z][_a-zA-Z\d]*(\\[A-Z][_a-zA-Z\d]*)*'.
+Line: 834
+
+Element 'block', attribute 'class': '\Magento\Catalog\Block\Product\View\Addto\Compare' is not a valid value of the atomic type 'blockClassType'.
+Line: 834
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'block', attribute 'class': [facet 'pattern'] The value '\\Magento\\Catalog\\Block\\Product\\View\\Addto\\Compare' is not accepted by the pattern '[A-Z][_a-zA-Z\\d]*(\\\\[A-Z][_a-zA-Z\\d]*)*'.
+Line: 834
+
+Element 'block', attribute 'class': '\\Magento\\Catalog\\Block\\Product\\View\\Addto\\Compare' is not a valid value of the atomic type 'blockClassType'.
+Line: 834
+ at /var/www/magento23/sample/vendor/magento/framework/Config/Dom.php:461)"} []
+[2021-05-31 11:49:23] main.CRITICAL: Invalid block type: Magento\Catalog\Block\Product\View\Addto\Compare {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): Invalid block type: Magento\\Catalog\\Block\\Product\\View\\Addto\\Compare at /var/www/magento23/sample/vendor/magento/framework/View/Layout/Generator/Block.php:278, ReflectionException(code: -1): Class Magento\\Catalog\\Block\\Product\\View\\Addto\\Compare does not exist at /var/www/magento23/sample/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-05-31 13:41:57] main.CRITICAL: The element "page.main.title" can't have a child because "page.main.title" already has a child with alias "product.sku.test". {"exception":"[object] (Magento\\Framework\\Exception\\LocalizedException(code: 0): The element \"page.main.title\" can't have a child because \"page.main.title\" already has a child with alias \"product.sku.test\". at /var/www/magento23/sample/vendor/magento/framework/Data/Structure.php:625)"} []
+[2021-06-01 08:35:41] main.CRITICAL: Class Magento\ConfigurableProduct\Model\Product\Type\Configurable\Interceptor does not exist {"exception":"[object] (ReflectionException(code: -1): Class Magento\\ConfigurableProduct\\Model\\Product\\Type\\Configurable\\Interceptor does not exist at /var/www/magento23/sample/vendor/magento/framework/Code/Reader/ClassReader.php:26)"} []
+[2021-06-03 10:44:55] main.CRITICAL: Theme layout update file '/var/www/magento23/sample/app/design/frontend/Shark/shark_child/Magento_Catalog/layout/catalog_product_view.xml' is not valid.
+Opening and ending tag mismatch: block line 33 and referenceContainer
+ Line: 37
+Opening and ending tag mismatch: referenceContainer line 11 and body
+ Line: 52
+Opening and ending tag mismatch: body line 10 and page
+ Line: 53
+Premature end of data in tag page line 8
+ Line: 54 {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Theme layout update file '/var/www/magento23/sample/app/design/frontend/Shark/shark_child/Magento_Catalog/layout/catalog_product_view.xml' is not valid.
+Opening and ending tag mismatch: block line 33 and referenceContainer
+ Line: 37
+Opening and ending tag mismatch: referenceContainer line 11 and body
+ Line: 52
+Opening and ending tag mismatch: body line 10 and page
+ Line: 53
+Premature end of data in tag page line 8
+ Line: 54 at /var/www/magento23/sample/vendor/magento/framework/View/Model/Layout/Merge.php:779)"} []

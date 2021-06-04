@@ -1,0 +1,1 @@
+/var/www/magento23/sample/vendor/magento/module-swatches/view/base/web/js/swatch-renderer.js
