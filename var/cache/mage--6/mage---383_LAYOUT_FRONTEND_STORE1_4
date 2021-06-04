@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622733269;s:6:"expire";i:9999999999;s:4:"tags";s:37:"383_LAYOUT_GENERAL_CACHE_TAG,383_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622815366;s:6:"expire";i:9999999999;s:4:"tags";s:37:"383_LAYOUT_GENERAL_CACHE_TAG,383_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7286,6 +7286,21 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1622733269;s:6:"expire";i:9999999999;s:4:"t
    <move element="share_identifier" destination="page.main.title" as="share_networks_identifier" after="-"/>
    <move element="product.info.details" destination="product.info.main" as="product.info.details.new" after="-"/>
    <move element="navigation.sections" destination="header-wrapper" as="nav.sections.new" after="logo"/>
+</body>
+</handle><handle id="cms_index_index"><body>
+   <referenceContainer name="content">
+      <block class="Magento\Framework\View\Element\Template" template="Magento_Catalog::test/page_main_title.phtml"/>
+      <block class="Magento\Cms\Block\Block" name="mg_homepage_pic">
+         <arguments>
+            <argument name="block_id" xsi:type="string">mg_homepage_pic</argument>
+         </arguments>
+      </block>
+      <block class="Magento\Cms\Block\Block" name="leafs_block" after="-">
+         <arguments>
+            <argument name="block_id" xsi:type="string">leafs_block</argument>
+         </arguments>
+      </block>
+   </referenceContainer>
 </body>
 </handle><handle id="default"><body>
    <referenceContainer name="footer">

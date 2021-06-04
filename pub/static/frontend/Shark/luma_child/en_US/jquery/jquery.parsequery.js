@@ -1,1 +1,0 @@
-/var/www/magento23/sample/lib/web/jquery/jquery.parsequery.js

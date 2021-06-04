@@ -3958,8 +3958,21 @@ fotorama__stage__frame img {
 .product-item .price-box {
   margin-top: 0;
 }
-/*
-----------------------------------------------------------------*/
+.filter-options .items li :hover {
+  background: #88b337;
+}
+.product.name a {
+  color: #000000;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.action.primary {
+  display: block;
+  background: #88b337;
+  border-radius: 14px;
+}
 .page-main .page-title-wrapper .page-title span {
   width: 96px;
   height: 16px;
@@ -3985,4 +3998,39 @@ fotorama__stage__frame img {
 .filter-options-title {
   color: #333333;
   font-family: Verdana, Geneva, sans-serif;
+}
+.title_test {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+.title_test .mg_title {
+  color: #88b337;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+}
+.title_test .mg_undertitle {
+  opacity: 0.7;
+  color: #333333;
+  font-size: 30px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.title_test button {
+  width: 75px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: #88b337;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.title_test .undertitle_two {
+  color: #333333;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: left;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-top: 50px;
 }
